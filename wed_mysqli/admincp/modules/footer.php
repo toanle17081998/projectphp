@@ -1,0 +1,1 @@
+<h3>footer admincp</h3>

@@ -1,0 +1,204 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    /* border: 1px solid #000; */
+    height: 800px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.icon_soluong{
+    color: black;
+    text-decoration: none;
+}
+.icon_soluong:hover{
+    color: red;
+}
+.wrapper_chitiet{
+     /* border: 1px solid #000; */
+     height: auto;
+     width: 90%;
+     margin: 0 auto;
+     border-radius: 3px;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(202, 112, 112);
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 200, 200);
+    
+}
+.chitiet_sanpham{
+    float: right;
+    width: 45%;
+    border: 1px solid rgb(202, 112, 112);
+    margin-right: 150px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+}
+.themgiohang{
+    border: none;
+    background: brown;
+    color: blanchedalmond;
+    padding: 10px;
+    cursor: pointer;
+    font-style: 15px;
+}
+.header{
+    border: 1px solid rgb(91, 48, 48);
+    height: 230px;
+    width: 100%;
+    background-color: rgb(126, 137, 113);
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 230px;
+}
+
+
+.menu{
+    border: 1px solid rgb(220, 163, 163);
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 5, 5);
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 20px;
+    
+    
+}
+ul.list_menu li {
+    float: left;
+    margin: 0px;
+    padding: 15px;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(234, 234, 238);
+}
+ul.list_menu li:hover {
+    background: rgb(98, 135, 160);
+    color: rgb(96, 96, 103);
+}
+
+#main{
+    border: 1px solid rgb(30, 26, 26);
+    height: auto;
+    width: 100%;
+    background-color: rgb(41, 37, 37);
+    
+}
+
+.sidebar{
+    border: 1px solid rgb(235, 232, 232);
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(197, 201, 184);
+    float: left;
+    
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: auto;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+ul.list_sidebar li {
+ 
+    margin: 0px;
+    padding: 15px;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: rgb(64, 35, 41);
+    display: block;
+}
+ul.list_sidebar li:hover {
+    background: rgb(98, 135, 160);
+    color: rgb(96, 96, 103);
+}
+
+.maincontent{
+    /* border: 1px solid rgb(30, 26, 26); */
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #fff;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li img {
+    width: 100%;
+}
+ul.product_list li {
+    width: 18%;
+    border: 1px solid rgb(202, 112, 112);
+    margin: 9px;
+    float: left;
+    background-color: rgb(214, 200, 200);
+    height: 350px;
+}
+
+
+ul.product_list li a {
+    min-height: 180px;
+
+    text-decoration: none;
+   
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+p.title_product {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    border: 1px solid rgb(223, 12, 12);
+    height: 150px;
+    width: 100%;
+    background-color: rgb(39, 37, 83);
+    margin-top: 10px;
+}
+p.footer_copyright {
+    text-align: center;
+    color: white;
+}

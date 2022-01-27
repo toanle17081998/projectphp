@@ -1,0 +1,1 @@
+<q>Cảm Ơn Quý Khách Đã Mua Hàng</q>
